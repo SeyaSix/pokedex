@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-header {
+    align-self: flex-end;
+}
+.nav-container {
+    align-self: flex-end;
+}
+.buttonNav{
+    padding: 10px;
+    background-color: #ddd;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+  }
+
+  li button:hover {
+    background-color: #ccc;
+  }
+  div:hover ul {
+    display: block;
+  }
+  .pikachu-image {
+    align-self: flex-start;
+  }
