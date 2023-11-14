@@ -1,10 +1,10 @@
 //Le header de chaque page affiche une image (au choix) et le menu avec toutes les pages
-import pikachu from "../img/pikachu.jpg";
+
 import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="h-container">
-      <img src={pikachu} alt="Pikachu" className="pikachu-image" />
+      <img src="/img/pikachu.jpg" alt="Pikachu" className="pikachu-image" />
       <h1>Pokedex</h1>
       <nav className="nav-container">
         <div className="nav-header">
@@ -22,7 +22,7 @@ function Header() {
             </li>
             <li>
               {" "}
-              <Link to="/typeFeu">Type Feu</Link>
+              <Link to="/typeFire">Type Feu</Link>
             </li>
             <li>
               {" "}
