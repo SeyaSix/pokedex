@@ -25,9 +25,18 @@ ul {
   li button:hover {
     background-color: #ccc;
   }
-  div:hover ul {
+  nav:hover ul {
     display: block;
   }
   .pikachu-image {
     align-self: flex-start;
+  }
+
+  .pokemonTeam {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  h2 {
+    text-align: center;
   }
