@@ -14,9 +14,6 @@ function Header() {
             <button className="buttonNav"><Link to="/">Home</Link></button>
             </li>
             <li>
-            <button className="buttonNav"><Link to="/detail">Details</Link></button>
-            </li>
-            <li>
               {" "}
               <button className="buttonNav"> <Link to="/liste">Liste</Link></button>
             </li>
