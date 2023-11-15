@@ -37,6 +37,7 @@ ul {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    font-weight: bold;
   }
   h2 {
     text-align: center;
