@@ -4,9 +4,13 @@ header {
     flex-direction: column;
     align-items: center;
 }
-
+.h-container {
+  background-color: dimgrey;
+}
 .nav-header {
-    align-self: flex-end;
+  color: red;
+  align-self: flex-end;
+  font-size: 32px;
 }
 .nav-container {
     align-self: flex-end;

@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import pokemonsList from "../components/pokemons";
 
 
-function PokemonTypePage() {
+function PokemonTypePage(type) {
     const filteredPokemons = pokemonsList.filter((pokemon) =>
       pokemon.types.includes(type)
     );

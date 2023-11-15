@@ -7,6 +7,7 @@ import TypeFeu from "./page/TypeFire";
 import TypePoison from "./page/TypePoison";
 import TypeWater from "./page/TypeWater";
 import PokemonPage from "./page/PokemonPage";
+import PokemonTypePage from "./page/PokemonPageType";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/typePoison" element={<TypePoison />} />
         <Route path="/typeWater" element={<TypeWater />} />
         <Route path="/pokemon/:id" element = {<PokemonPage />} />
+        <Route path="/pokemon/" element = {<PokemonTypePage />} />
       </Routes>
     </BrowserRouter>
   );
