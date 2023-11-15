@@ -10,6 +10,7 @@ function PokemonPage() {
     setPokemon(pokemonsList.find((pokemon) => pokemon.id === Number(id))); //number(id) transform le sting en int
   }, [setPokemon, id]);
 
+
   return (
     <>
       <Header />
@@ -23,5 +24,7 @@ function PokemonPage() {
     </>
   );
 }
+
+
 
 export default PokemonPage;

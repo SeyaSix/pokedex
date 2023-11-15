@@ -10,6 +10,9 @@ function Home() {
   function openPokemonPage(pokemonid) {
     navigate(`/pokemon/${pokemonid}`); // ou navigate ("/pokemon/" + pokemonid)
   }
+  function openTypePage(type) {
+    navigate(`/type/${type}`);
+  }
   return (
     <>
       <Header />
@@ -20,13 +23,14 @@ function Home() {
           <div
             key={pokemon.id}
             className="pokemonTeam"
-            onClick={()=>openPokemonPage(pokemon.id)}
+            
           >
-            <p>{pokemon.name}</p>
+            <p onClick={() => openPokemonPage(pokemon.id)}>{pokemon.name}</p>
             <img src={pokemon.img} alt="" />
-            <p>{pokemon.types}</p>
+            <p onClick={() => openTypePage(pokemon.types[0])}>{pokemon.types[0]}</p>
           </div>
         ))}
+
       </main>
     </>
   );
